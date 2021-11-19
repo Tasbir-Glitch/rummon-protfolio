@@ -1,0 +1,193 @@
+// *{
+//     margin: 0;
+//     padding: 0;
+// }
+
+
+// .protfolio{
+//     margin-top: 50px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+    
+// }
+// .container{
+//     background: rgba(0, 0, 0, 0);
+//     width: 80%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+    
+// }
+// .protfolio-filter ul{
+//     display: flex;
+//     margin-bottom: 50px;
+// }
+// .protfolio-filter ul li{
+//     background: rgba(194, 194, 194, 0);
+//     list-style: none;
+//     margin-left: 10px;
+//     padding: 10px 20px;
+//     border-radius: 20px;
+// }
+// .protfolio .grid{
+//     background: rgba(83, 223, 18, 0);
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .grid .item{
+//     width: 33.3333%;
+//     margin-left: 10px;
+//     margin-bottom: 10px;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     background: rgba(51, 51, 51, 0);
+//     position: relative;
+// }
+
+// .grid .item img{
+//     transform: scale(103%);
+//     width: 100%;
+//     height: 100%;
+//     transition: 500ms;
+// }
+// .item:hover img{
+//     transform: scale(115%);
+// }
+// .item .text{
+//     position: absolute;
+//     top: 20px;
+//     left: 20px;
+//     color: white;
+//     z-index: 2;
+//     opacity: 0;
+//     transform: translateY(20px);
+//     transition: 500ms;
+// }
+// .item:hover .text{
+//     transform: translateY(0);
+//     opacity: 1;
+// }
+// .item .text h1{
+//     font-size: 20px;
+// }
+// .item .text p{
+//     font-size: 16px;
+// }
+// .item i{
+//     color: white;
+//     font-size: 30px;
+//     position: absolute;
+//     top: 0;
+//     left: 50%;
+//     transform: translate(-50%);
+//     z-index: 2;
+//     opacity: 0;
+//     transition: 500ms;
+//     cursor: pointer;
+// }
+// .item:hover i{
+//     opacity: 1;
+//     top: 48%;
+// }
+// .item::before{
+//     content: '';
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 0px;
+//     background: rgba(4, 161, 235, 0.938);
+//     z-index: 1;
+//     transition: 500ms ease-in-out;
+// }
+// .item::after{
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 0px;
+//     background: rgba(4, 161, 235, 0.938);
+//     z-index: 1;
+//     height: 0;
+//     transition: 500ms ease-in-out;
+// }
+// .item:hover::before{
+//     bottom: 0px;
+//     left: 0px;
+//     height: 50%;
+//     border-radius: 0;
+// }
+// .item:hover::after{
+//     height: 50%;
+// }
+
+<!-- <section class="protfolio">
+<div class="container">
+        <div class="protfolio-filter">
+            <ul>
+                <li data-filter="*">All</li>
+                <li data-filter=".web">WEB</li>
+                <li data-filter=".seo">SEO</li>
+                <li data-filter=".graphics">GRAPHICS</li>
+            </ul>
+        </div>
+        <div class="grid">
+            <div class=" item web">
+                <img src="images/1.png" alt="">
+                <div class="text">
+                    <h1>Hello There.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <i class="fa fa-plus-circle"></i>
+            </div>
+            <div class=" item web">
+                <img src="images/2.png" alt="">
+                <div class="text">
+                    <h1>Hello There.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <i class="fa fa-plus-circle"></i>
+            </div>
+            <div class=" item seo">
+                <img src="images/3.png" alt="">
+                <div class="text">
+                    <h1>Hello There.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <i class="fa fa-plus-circle"></i>
+            </div>
+            <div class=" item seo">
+                <img src="images/4.png" alt="">
+                <div class="text">
+                    <h1>Hello There.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <i class="fa fa-plus-circle"></i>
+            </div>
+            <div class=" item graphics">
+                <img src="images/5.png" alt="">
+                <div class="text">
+                    <h1>Hello There.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <i class="fa fa-plus-circle"></i>
+            </div>
+            <div class=" item graphics">
+                <img src="images/6.png" alt="">
+                <div class="text">
+                    <h1>Hello There.</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <i class="fa fa-plus-circle"></i>
+            </div>
+        </div>
+</div> -->
+
+

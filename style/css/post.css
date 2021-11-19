@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+    font-family: sans;
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #17191b;
+}
+
+h1,
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+.close{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    place-items: center;
+    -webkit-box-shadow: 5px 5px 3px #090a0b,
+        -5px -5px 3px #25282b;
+    box-shadow: 5px 5px 3px #090a0b,
+        -5px -5px 3px #25282b;
+        border-radius: 10px;
+        padding: 5px 15px; 
+}
+.close span{
+    font-size: 19px;
+}
+.close span i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.info-bar {
+    width: 850px;
+    -webkit-box-shadow: 5px 5px 3px #090a0b,
+        -5px -5px 3px #25282b;
+    box-shadow: 5px 5px 3px #090a0b,
+        -5px -5px 3px #25282b;
+    padding: 20px 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-bar span:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -70px;
+    background: rgb(44, 44, 44);
+    width: 2px;
+    height: 100%;
+}
+.info-bar span:nth-child(2)::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -70px;
+    background: rgb(44, 44, 44);
+    width: 2px;
+    height: 100%;
+}
+
+.info-bar span {
+    position: relative;
+    color: white;
+}
+.info-bar span i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(0, 156, 196);
+}
+
+
+.post {
+    position: relative;
+    margin-top: 20px;
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .contents {
+    padding: 30px 0;
+}
+
+.post .contents h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.post .contents p {
+    font-size: 18px;
+    color: #adadad;
+    line-height: 40px;
+}
+
+@media (max-width:1050px){
+    .post{
+        width: 700px;
+    }
+    .post .contents p {
+        font-size: 16px;
+        color: #adadad;
+        line-height: 35px;
+    }
+    .info-bar{
+        width: 650px;
+    }
+    .info-bar span:nth-child(2)::before{
+        left: -35px;
+    }
+    .info-bar span:nth-child(2)::after{
+        right: -35px;
+    }
+}
+@media (max-width:850px){
+    .post{
+        width: 650px;
+    }
+    .post .contents p {
+        font-size: 16px;
+        color: #adadad;
+        line-height: 35px;
+    }
+    .info-bar{
+        width: 600px;
+    }
+    .info-bar span:nth-child(2)::before{
+        left: -25px;
+    }
+    .info-bar span:nth-child(2)::after{
+        right: -25px;
+    }
+}
+@media (max-width:750px){
+    .post{
+        width: 500px;
+    }
+    .post .contents p {
+        font-size: 16px;
+        color: #adadad;
+        line-height: 35px;
+    }
+    .info-bar{
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-bar span{
+        margin: 20px 0;
+    }
+    .info-bar span:nth-child(2)::before{
+        display: none;
+    }
+    .info-bar span:nth-child(2)::after{
+        display: none;
+    }
+}
+@media (max-width:550px){
+    .post{
+        width: 400px;
+    }
+    .post .contents p {
+        font-size: 16px;
+        color: #adadad;
+        line-height: 35px;
+    }
+    .info-bar{
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-bar span{
+        margin: 20px 0;
+    }
+}
+@media (max-width:450px){
+    .post{
+        width: 300px;
+    }
+    .post .contents p {
+        font-size: 16px;
+        color: #adadad;
+        line-height: 35px;
+    }
+    .info-bar{
+        width: 290px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .info-bar span{
+        margin: 20px 0;
+        font-size: 14px;
+    }
+    .info-bar span i{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,107 @@
+.navbar {
+    background: #1D1D1D;
+    border-top: none;
+    height: 130px;
+    padding: 0 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 0 0 50px 50px;
+    background: #17191b;
+    -webkit-box-shadow: 5px 5px 10px #0c0e0f, -5px -5px 10px #222527;
+            box-shadow: 5px 5px 10px #0c0e0f, -5px -5px 10px #222527;
+    position: relative;
+  }
+  
+  .navbar .logo {
+    background: rgba(196, 121, 121, 0);
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 500ms ease-in-out;
+    transition: -webkit-transform 500ms ease-in-out;
+    transition: transform 500ms ease-in-out;
+    transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+  }
+  
+  .navbar .logo:hover {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  
+  .navbar .nav-menu ul {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .navbar .nav-menu ul li {
+    list-style: none;
+    margin-right: 40px;
+  }
+  
+  .navbar .nav-menu ul li a {
+    text-decoration: none;
+    line-height: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbar .nav-menu ul li a::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #00AEF8;
+    position: absolute;
+    bottom: -3px;
+    border-radius: 50px;
+    left: 0;
+    width: 0;
+    -webkit-transition: width 300ms ease-in-out;
+    transition: width 300ms ease-in-out;
+  }
+  
+  .navbar .nav-menu ul li a:hover::before {
+    width: 100%;
+  }
+  
+  .cv {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .cv button {
+    background: #cfcfcf;
+    color: #1b1b1b;
+    border: none;
+    padding: 11px 28px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  .cv button:hover {
+    color: white;
+    background: #17191b;
+    -webkit-box-shadow: inset 5px 5px 3px #090a0b,
+   inset -5px -5px 3px #25282b;
+            box-shadow: inset 5px 5px 3px #090a0b,
+   inset -5px -5px 3px #25282b;
+  }
+  
